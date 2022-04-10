@@ -9,4 +9,12 @@ Body {
   font-style: normal;
   font-size: 16px;
   text-align: center;
-  }
+}
+.contakt-links .link {
+  color: #757575;
+}
+
+.contakt-links .link:hover,
+.contakt-links .link:focus {
+  color: #2196f3;
+}
