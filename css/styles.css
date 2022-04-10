@@ -3,6 +3,9 @@ Body {
   background-color: #e5e5e5;
   color: #757575;
 }
+a {
+  text-decoration: none;
+}
 .button {
   cursor: pointer;
   font-family: 'Roboto';
