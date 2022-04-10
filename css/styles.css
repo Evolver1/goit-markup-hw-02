@@ -4,4 +4,9 @@ Body {
   color: #757575;
 }
 .button {
-}
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  }
