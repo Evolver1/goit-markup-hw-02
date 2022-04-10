@@ -19,6 +19,7 @@ Body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--button-txt-focus-col);
+  text-transform: uppercase;
 }
 .header-h2 {
   font-weight: 700;
@@ -34,6 +35,7 @@ Body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--nav-links-color);
+  text-transform: uppercase;
 }
 .header-h4 {
   font-weight: 500;
@@ -57,15 +59,11 @@ Body {
   font-size: 16px;
   line-height: 19px;
 }
-
 .our-progects .p-txt {
   font-size: 16px;
   line-height: 30px;
-  }
-
-.link {
-  text-decoration: none;
 }
+
 .adress {
   text-decoration: none;
   font-style: normal;
@@ -95,6 +93,9 @@ Body {
   border: none;
 }
 /* background: #f5f4fa;*/
+.link {
+  text-decoration: none;
+}
 
 .button:hover,
 .button:focus {
