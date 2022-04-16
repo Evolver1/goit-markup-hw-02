@@ -22,13 +22,28 @@ Body {
   color: var(--button-txt-focus-col);
   text-transform: uppercase;
 }
-.header-h2 {
+.weare__main-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--nav-links-color);
 }
+.aboutus {
+}
+.aboutus__header {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--nav-links-color);
+  text-transform: uppercase;
+}
+.aboutus__txt {
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
 .header-h3 {
   font-weight: 700;
   font-size: 14px;
@@ -37,18 +52,6 @@ Body {
   text-transform: uppercase;
   color: var(--nav-links-color);
   text-transform: uppercase;
-}
-.header-h4 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: var(--nav-links-color);
-}
-.our-progects .header-h4 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
 }
 
 .p-txt {
@@ -64,9 +67,23 @@ Body {
 .our-team {
   background-color: var(--our-team-backgr);
 }
-.our-team .p-txt {
+.our-team__header {
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  color: var(--nav-links-color);
+}
+
+.our-team__txt {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.our-progects .header-h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 .our-progects .p-txt {
   font-size: 16px;
