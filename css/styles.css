@@ -73,11 +73,6 @@ Body {
   line-height: 30px;
 }
 
-.adress {
-  text-decoration: none;
-  font-style: normal;
-}
-
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -88,11 +83,11 @@ Body {
   color: var(--focus-color);
   text-decoration: none;
 }
-.logo .logo-text {
+.logo__text {
   color: var(--logo-color);
 }
 
-.logo .logo-text-footer {
+.logo__text-footer {
   color: var(--button-txt-focus-col);
 }
 
@@ -107,6 +102,7 @@ Body {
   border: none;
 }
 /* background: #f5f4fa;*/
+
 .link {
   text-decoration: none;
 }
@@ -124,17 +120,17 @@ Body {
 .futer-sec {
   background-color: var(--hero-backgr);
 }
-
-.contakt-links {
-  list-style-type: none;
+.adress {
+  text-decoration: none;
+  font-style: normal;
 }
 
-.contakt-links .link {
+.adress__link {
   color: var(--contact-links-color);
 }
 
-.contakt-links .link:hover,
-.contakt-links .link:focus {
+.adress__link:hover,
+.adress__link:focus {
   color: var(--focus-color);
 }
 
@@ -142,11 +138,11 @@ Body {
   list-style-type: none;
 }
 
-.nav-links .link {
+.navigation__link {
   color: var(--nav-links-color);
 }
 
-.nav-links .link:hover,
-.nav-links .link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--focus-color);
 }
