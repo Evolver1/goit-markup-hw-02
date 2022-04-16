@@ -97,10 +97,18 @@ Body {
   text-decoration: none;
 }
 
+.list {
+  list-style-type: none;
+}
+
 .button:hover,
 .button:focus {
   background: var(--focus-color);
   color: var(--button-txt-focus-col);
+}
+
+.contakt-links {
+  list-style-type: none;
 }
 
 .contakt-links .link {
@@ -110,6 +118,10 @@ Body {
 .contakt-links .link:hover,
 .contakt-links .link:focus {
   color: var(--focus-color);
+}
+
+.nav-links {
+  list-style-type: none;
 }
 
 .nav-links .link {
