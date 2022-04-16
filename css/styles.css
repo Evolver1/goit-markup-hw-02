@@ -17,11 +17,14 @@ Body {
 .button {
   cursor: pointer;
   font-family: 'Roboto';
+  border: none;
+  text-decoration: none;
+  display: inline-block;
   font-style: normal;
   font-size: 16px;
   text-align: center;
   border-radius: 4px;
-  border: none;
+  transition-duration: 0.4s;
 }
 
 .hero-ind {
@@ -41,6 +44,16 @@ Body {
 .hero-ind__button {
   width: 200px;
   height: 50px;
+  background: var(--focus-color);
+  color: var(--button-txt-focus-col);
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.hero-ind__button:hover,
+.hero-ind__button:focus {
+  background: var(--our-team-backgr);
+  color: var(--nav-links-color);
 }
 
 .weare__main-header {
@@ -98,11 +111,25 @@ Body {
 }
 /*.our-progects {
 }*/
+
+.our-progects__button {
+  font-weight: 500;
+  padding: 6px 22px;
+  line-height: 26px;
+}
+
+.our-progects__button:hover,
+.our-progects__button:focus {
+  background: var(--focus-color);
+  color: var(--button-txt-focus-col);
+}
+
 .our-progects__header {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
+  color: var(--nav-links-color);
 }
 .our-progects__txt {
   font-size: 16px;
@@ -133,12 +160,6 @@ Body {
 
 .list {
   list-style-type: none;
-}
-
-.button:hover,
-.button:focus {
-  background: var(--focus-color);
-  color: var(--button-txt-focus-col);
 }
 
 .futer-sec {
