@@ -11,6 +11,7 @@ Body {
   font-family: 'Roboto', sans-serif;
   color: var(--contact-links-color);
   font-size: 14px;
+  font-weight: 400;
 }
 /* background-color: var(--button-txt-focus-col); */
 
@@ -156,6 +157,7 @@ Body {
 
 .adress__link {
   color: var(--contact-links-color);
+  font-weight: 500;
 }
 
 .adress__link:hover,
@@ -169,6 +171,7 @@ Body {
 
 .navigation__link {
   color: var(--nav-links-color);
+  font-weight: 500;
 }
 
 .navigation__link:hover,
