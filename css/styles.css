@@ -5,18 +5,15 @@
   --button-txt-focus-col: #ffffff;
   --logo-color: #000000;
   --hero-backgr: #2f303a;
+  --our-team-backgr: #f5f4fa;
 }
 Body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--button-txt-focus-col);
   color: var(--contact-links-color);
   font-size: 14px;
 }
-.hero {
-  background: var(--hero-backgr);
-  color: var(--hero-backgr);
-}
-.main-h {
+/* background-color: var(--button-txt-focus-col); */
+.Hero-txt {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -59,6 +56,12 @@ Body {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+/*.hero-ind {
+  background-color: var(--hero-backgr);
+}*/
+.our-team {
+  background-color: var(--our-team-backgr);
+}
 .our-team .p-txt {
   font-size: 16px;
   line-height: 19px;
@@ -86,6 +89,11 @@ Body {
 .logo .logo-text {
   color: var(--logo-color);
 }
+
+.logo .logo-text-footer {
+  color: var(--button-txt-focus-col);
+}
+
 .button {
   cursor: pointer;
   font-family: 'Roboto';
@@ -109,6 +117,10 @@ Body {
 .button:focus {
   background: var(--focus-color);
   color: var(--button-txt-focus-col);
+}
+
+.futer-sec {
+  background-color: var(--hero-backgr);
 }
 
 .contakt-links {
