@@ -3,13 +3,13 @@
   --contact-links-color: #757575;
   --focus-color: #2196f3;
   --button-txt-focus-col: #ffffff;
+  --logo-color: #000000;
 }
 Body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  background-color: var(--button-txt-focus-col);
   color: var(--contact-links-color);
-  font-style: normal;
-  font-weight: 400;
+  font-size: 14px;
 }
 
 .main-h {
@@ -80,7 +80,7 @@ Body {
   text-decoration: none;
 }
 .logo .logo-text {
-  color: var(--button-txt-focus-col);
+  color: var(--logo-color);
 }
 .button {
   cursor: pointer;
