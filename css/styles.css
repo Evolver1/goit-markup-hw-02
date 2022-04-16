@@ -13,7 +13,22 @@ Body {
   font-size: 14px;
 }
 /* background-color: var(--button-txt-focus-col); */
-.Hero-txt {
+
+.button {
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.hero-ind {
+  background-color: var(--hero-backgr);
+}
+
+.hero-ind__header {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -22,6 +37,12 @@ Body {
   color: var(--button-txt-focus-col);
   text-transform: uppercase;
 }
+
+.hero-ind__button {
+  width: 200px;
+  height: 50px;
+}
+
 .weare__main-header {
   font-weight: 700;
   font-size: 36px;
@@ -58,10 +79,6 @@ Body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-}
-
-.Hero-ind {
-  background-color: var(--hero-backgr);
 }
 
 .our-team {
@@ -109,18 +126,6 @@ Body {
 .logo__text-footer {
   color: var(--button-txt-focus-col);
 }
-
-.button {
-  cursor: pointer;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 16px;
-  text-align: center;
-
-  border-radius: 4px;
-  border: none;
-}
-/* background: #f5f4fa;*/
 
 .link {
   text-decoration: none;
