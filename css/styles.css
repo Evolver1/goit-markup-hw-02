@@ -56,9 +56,11 @@ Body {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-/*.hero-ind {
+
+.Hero-ind {
   background-color: var(--hero-backgr);
-}*/
+}
+
 .our-team {
   background-color: var(--our-team-backgr);
 }
