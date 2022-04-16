@@ -29,8 +29,8 @@ Body {
   letter-spacing: 0.03em;
   color: var(--nav-links-color);
 }
-.aboutus {
-}
+/* .aboutus {
+} */
 .aboutus__header {
   font-weight: 700;
   line-height: 16px;
@@ -67,6 +67,7 @@ Body {
 .our-team {
   background-color: var(--our-team-backgr);
 }
+
 .our-team__header {
   font-weight: 500;
   font-size: 16px;
@@ -78,14 +79,15 @@ Body {
   font-size: 16px;
   line-height: 19px;
 }
-
-.our-progects .header-h4 {
+/*.our-progects {
+}*/
+.our-progects__header {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
 }
-.our-progects .p-txt {
+.our-progects__txt {
   font-size: 16px;
   line-height: 30px;
 }
