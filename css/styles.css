@@ -7,6 +7,7 @@
   --hero-backgr: #2f303a;
   --our-team-backgr: #f5f4fa;
   --footr-link: rgba(255, 255, 255, 0.6);
+  --button-hiro-focus: #188fe8;
 }
 Body {
   font-family: 'Roboto', sans-serif;
@@ -62,7 +63,7 @@ Body {
 
 .hero-ind__button:hover,
 .hero-ind__button:focus {
-  background: var(--our-team-backgr);
+  background: var(--button-hiro-focus);
   color: var(--nav-links-color);
 }
 
@@ -90,6 +91,10 @@ Body {
 
 .our-team {
   background-color: var(--our-team-backgr);
+}
+
+.our-team__li {
+  background-color: var(--button-txt-focus-col);
 }
 .our-team__main-header {
   font-weight: 700;
