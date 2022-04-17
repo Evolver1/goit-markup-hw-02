@@ -78,6 +78,7 @@ Body {
 } */
 .aboutus__header {
   font-weight: 700;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -171,6 +172,7 @@ Body {
 .adress__link {
   color: var(--contact-links-color);
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .adress__link:hover,
