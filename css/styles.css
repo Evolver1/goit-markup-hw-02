@@ -103,6 +103,7 @@ Body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--nav-links-color);
 }
 
 .our-team__header {
